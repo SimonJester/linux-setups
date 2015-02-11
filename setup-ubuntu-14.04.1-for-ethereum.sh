@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# To run this script:
+# sudo apt-get install -y git
+# mkdir ~/src && cd ~/src
+# git clone https://github.com/SimonJester/linux-setups.git
+# cd linux-setups
+# ./setup-ubuntu-14.04.1-for-ethereum.sh
+
 sudo apt-get update -y && sudo apt-get dist-upgrade && sudo apt-get autoremove
 sudo apt-get install -y python-setuptools python-dev build-essential cmake
 easy_install pip
